@@ -21,7 +21,7 @@ form.addEventListener('submit',e=>{
             i++;
             mark.innerHTML=i+"%";
         }
-        else{
+        else if(i===0){
             mark.innerHTML=0+'%';
         }
     },5);
